@@ -3,7 +3,7 @@ package province;
 import country.Country;
 
 public class CoastalProvince extends LandProvince {
-    private final String type = "coastal";
+    public static final String TYPE = "coastal";
 
     public CoastalProvince(String name, String tag, boolean passable) {
         super(name, tag, passable);
@@ -23,6 +23,6 @@ public class CoastalProvince extends LandProvince {
 
     @Override
     public String toString() {
-        return super.toString() + String.format("| %-12s", type);
+        return super.toString() + String.format("| %-12s", TYPE);
     }
 }

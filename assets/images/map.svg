@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg [
+                                <!ENTITY nADR "287,441">
+                                <!ENTITY nAEG "386,524">
+                                <!ENTITY nBAL "310,240">
+                                <!ENTITY nBAR "427,28">
+                                <!ENTITY nBLA "455,417">
+                                <!ENTITY nEAS "445,542">
+                                <!ENTITY nENG "99,302">
+                                <!ENTITY nGoB "331,199">
+                                <!ENTITY nGoL "165,435">
+                                <!ENTITY nHEL "212,258">
+                                <!ENTITY nION "305,535">
+                                <!ENTITY nIRI "78,276">
+                                <!ENTITY nMAO "30,320">
+                                <!ENTITY nNAO "58,150">
+                                <!ENTITY nNTH "183,195">
+                                <!ENTITY nNWG "213,90">
+                                <!ENTITY nSKA "243,213">
+                                <!ENTITY nTYS "235,473">
+                                <!ENTITY nWES "115,485">
+
+	<!ENTITY aAlb "333,468">    <!ENTITY nAlb "323,462">
+	<!ENTITY aAnk "490,447">    <!ENTITY nAnk "490,445">    <!ENTITY scAnk "482,469">
+	<!ENTITY aApu "293,473">    <!ENTITY nApu "293,471">
+	<!ENTITY aArm "569,448">    <!ENTITY nArm "565,447">
+	<!ENTITY aBel "176,303">    <!ENTITY nBel "172,302">    <!ENTITY scBel "195,314">
+	<!ENTITY aBer "270,276">	<!ENTITY nBer "264,275">    <!ENTITY scBer "280,290">
+	<!ENTITY aBoh "280,330">
+	<!ENTITY aBre "116,328">    <!ENTITY nBre "114,326">	<!ENTITY scBre "106,322">
+	<!ENTITY aBud "347,370">	                            <!ENTITY scBud "326,376">
+	<!ENTITY aBul "390,445">	                            <!ENTITY scBul "377,444">
+	                            <!ENTITY nBul_ec "403,433">
+	                            <!ENTITY nBul_sc "386,458">
+	<!ENTITY aBur "187,351">    <!ENTITY nBur "191,360">
+	<!ENTITY aCly "135,185">    <!ENTITY nCly "132,183">
+	<!ENTITY aCon "445,469">    <!ENTITY nCon "434,466">	<!ENTITY scCon "432,460">
+	<!ENTITY aDen "249,227">    <!ENTITY nDen "243,226">	<!ENTITY scDen "274,252">
+	<!ENTITY aEdi "147,204">    <!ENTITY nEdi "147,204">	<!ENTITY scEdi "154,219">
+	<!ENTITY aFin "372,137">    <!ENTITY nFin "368,135">
+	<!ENTITY aGal "376,345">    <!ENTITY nGal "377,343">
+	<!ENTITY aGas "129,380">    <!ENTITY nGas "125,380">
+	<!ENTITY aGre "353,495">    <!ENTITY nGre "353,515">	<!ENTITY scGre "378,507">
+	<!ENTITY aHol "198,291">    <!ENTITY nHol "189,288">	<!ENTITY scHol "205,284">
+	<!ENTITY aKie "237,286">    <!ENTITY nKie "228,285">	<!ENTITY scKie "254,278">
+	<!ENTITY aLpl "136,237">    <!ENTITY nLpl "125,239">	<!ENTITY scLpl "136,255">
+	<!ENTITY aLvn "370,238">    <!ENTITY nLvn "365,235">
+	<!ENTITY aLon "152,280">    <!ENTITY nLon "150,280">	<!ENTITY scLon "162,292">
+	<!ENTITY aMar "176,401">    <!ENTITY nMar "167,400">	<!ENTITY scMar "186,417">
+	<!ENTITY aMos "435,245">		                        <!ENTITY scMos "481,234">
+	<!ENTITY aMun "240,339">		                        <!ENTITY scMun "258,359">
+	<!ENTITY aNap "290,496">    <!ENTITY nNap "286,495">	<!ENTITY scNap "278,469">
+	<!ENTITY aNAf "90,530">     <!ENTITY nNAf "80,530">
+	<!ENTITY aNwy "254,155">    <!ENTITY nNwy "248,153">	<!ENTITY scNwy "270,189">
+	<!ENTITY aPar "155,340">		                        <!ENTITY scPar "173,334">
+	<!ENTITY aPic "156,320">    <!ENTITY nPic "152,319">
+	<!ENTITY aPie "213,399">    <!ENTITY nPie "206,399">
+	<!ENTITY aPor "25,418">     <!ENTITY nPor "13,418">		<!ENTITY scPor "15,434">
+	<!ENTITY aPru "307,279">    <!ENTITY nPru "305,277">
+	<!ENTITY aRom "257,452">	<!ENTITY nRom "252,451">    <!ENTITY scRom "252,443">
+	<!ENTITY aRuh "215,315">
+	<!ENTITY aRum "407,404">    <!ENTITY nRum "405,405">	<!ENTITY scRum "399,413">
+	<!ENTITY aSer "343,429">		                        <!ENTITY scSer "343,419">
+	<!ENTITY aSev "500,330">	<!ENTITY nSev "460,360">	<!ENTITY scSev "483,396">
+	<!ENTITY aSil "298,308">
+	<!ENTITY aSmy "437,507">    <!ENTITY nSmy "430,508">	<!ENTITY scSmy "424,502">
+	<!ENTITY aSpa "60,443">		                            <!ENTITY scSpa "80,432">
+	                            <!ENTITY nSpa_nc "65,395">
+	                            <!ENTITY nSpa_sc "52,475">
+	<!ENTITY aStP "430,175">	                            <!ENTITY scStP "420,184">
+	                            <!ENTITY nStP_nc "450,122">
+	                            <!ENTITY nStP_sc "392,195">
+	<!ENTITY aSwe "300,145">    <!ENTITY nSwe "295,140">    <!ENTITY scSwe "323,196">
+	<!ENTITY aSyr "550,510">    <!ENTITY nSyr "545,510">
+	<!ENTITY aTri "296,405">	<!ENTITY nTri "293,405">    <!ENTITY scTri "284,396">
+	<!ENTITY aTun "206,537">    <!ENTITY nTun "198,537">	<!ENTITY scTun "220,529">
+	<!ENTITY aTus "241,427">    <!ENTITY nTus "233,427">
+	<!ENTITY aTyr "274,369">
+	<!ENTITY aUkr "417,317">
+	<!ENTITY aVen "243,407">    <!ENTITY nVen "243,407">    <!ENTITY scVen "261,397">
+	<!ENTITY aVie "305,352">                                <!ENTITY scVie "301,363">
+	<!ENTITY aWal "127,283">    <!ENTITY nWal "113,282">
+	<!ENTITY aWar "355,310">                                <!ENTITY scWar "346,302">
+	<!ENTITY aYor "152,256">    <!ENTITY nYor "152,256">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 610 560">
+
+	<title>Diplomacy</title>
+
+	<defs>
+		<style type="text/css">
+			<![CDATA[
+				.map__province {
+					stroke          : black;
+					stroke-width    : 0.25px;
+					stroke-linejoin : round;
+				}
+
+				.map__province--austria      { fill : #8B4513; }
+				.map__province--england      { fill : #F08080; }
+				.map__province--france       { fill : #00BFFF; }
+				.map__province--germany      { fill : #696969; }
+				.map__province--italy        { fill : #008000; }
+				.map__province--russia       { fill : #BA55D3; }
+				.map__province--turkey       { fill : #E6E600; }
+				.map__province--sea          { fill : #F0F8FF; }
+				.map__province--neutral      { fill : #FFA500; }
+				.map__province--inaccessible { fill : #C0C0C0; }
+
+				.map__province-boundary { stroke-width: 2px; }
+
+				.map__province-boundary--russia  { stroke : #BA55D3; }
+				.map__province-boundary--neutral { stroke : #FFA500; }
+
+				.map__province-text {
+				    color          : black;
+					font-size      : 8px;
+					font-family    : Calibri, Arial, Helvetica, sans-serif;
+					pointer-events : none;
+				}
+
+				.map__supply-center {
+					stroke       : black;
+					stroke-width : 1px;
+				}
+
+				.map__unit {
+					stroke          : black;
+					stroke-linejoin : round;
+					cursor          : pointer;
+				}
+
+				.map__unit--army { stroke-width : 0.5px; }
+				.map__unit--navy { stroke-width : 0.15px; }
+			]]>
+		</style>
+	</defs>
+
+	<!-- *********************************************************************************************************** -->
+	<!-- SEA INITIAL_PROVINCES                                                                                               -->
+	<!-- *********************************************************************************************************** -->
+	<g id="ADR" title="Adriatic Sea">
+		<polygon class="map__province map__province--sea" points="322,480 297,456 300,453 290,453 278,443 272,424 260,417 261,401 270,398 276,399 275,403 278,410 282,401 286,402 289,418 306,436 331,454 331,477 335,480"/>
+		<text class="map__province-text" x="308" y="460">ADR</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nADR;)"/>
+	</g>
+	<g id="AEG" title="Aegean Sea">
+		<polygon class="map__province map__province--sea" points="376,537 371,520 378,521 377,513 386,516 385,509 370,494 371,491 378,494 368,483 371,477 379,484 382,483 381,477 386,478 380,472 392,472 400,468 408,470 410,473 414,475 410,482 409,487 417,486 417,489 420,495 417,498 417,507 423,510 427,524 435,523 435,530 416,549 412,547 387,546 383,544"/>
+		<text class="map__province-text" x="392" y="510">AEG</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nAEG;)"/>
+	</g>
+	<g id="BAL" title="Baltic Sea">
+		<polygon class="map__province map__province--sea" points="266,255 271,260 278,254 277,250 280,248 279,243 282,253 289,254 294,245 305,244 312,229 311,220 359,220 349,229 347,243 347,248 348,254 344,262 337,264 334,273 328,274 326,265 314,266 307,273 294,275 286,274 287,267 280,266 266,275 261,274 260,269 256,266 256,263 254,255"/>
+		<text class="map__province-text" x="308" y="260">BAL</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBAL;)"/>
+	</g>
+	<g id="BAR" title="Barents Sea">
+		<polygon class="map__province map__province--sea" points="540 0 535,9 530,6 517,19 516,33 513,38 513,23 507,20 505,26 499,33 492,48 495,58 488,60 479,57 477,55 481,50 473,43 466,45 472,62 478,66 478,74 472,72 468,74 457,91 469,100 467,106 462,109 444,101 442,110 447,115 454,119 452,122 434,118 426,103 426,94 414,88 412,83 445,84 457,79 459,66 453,61 417,47 405,49 401,45 397,48 391,47 395,41 394,38 384,33 382,40 380,33 377,31 374,38 371,33 366,42 366,33 362,33 362,0"/>
+		<text class="map__province-text" x="436" y="16">BAR</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBAR;)"/>
+	</g>
+	<g id="BLA" title="Black Sea">
+		<polygon class="map__province map__province--sea" points="440,458 430,455 426,450 422,441 425,427 429,426 430,423 432,409 439,404 438,397 446,378 459,375 461,377 459,379 465,383 476,381 478,383 472,385 468,392 477,396 477,401 486,404 488,397 494,396 497,392 507,389 506,384 494,387 485,378 503,364 526,351 527,354 514,365 517,371 520,371 515,384 511,383 510,386 517,393 528,394 554,406 567,408 573,417 570,427 555,438 551,437 520,441 514,438 511,440 502,433 481,438 470,447 464,457 442,460"/>
+		<text class="map__province-text" x="500" y="418">BLA</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBLA;)"/>
+	</g>
+	<g id="EAS" title="Eastern Mediterranean">
+		<polygon class="map__province map__province--sea" points="435,530 441,526 447,528 453,534 464,531 466,521 475,520 485,528 491,530 505,526 511,514 520,517 527,508 530,509 525,518 526,530 532,535 528,559 400,559 400,554 414,552 416,549"/>
+		<text class="map__province-text" x="490" y="548">EAS</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nEAS;)"/>
+	</g>
+	<g id="ENG" title="English Channel">
+		<polygon class="map__province map__province--sea" points="173,301 169,311 153,315 155,320 150,319 144,318 142,312 136,310 136,326 124,323 122,318 102,317 88,303 100,291 110,292 120,295 124,291 134,294 147,295 160,298 168,296"/>
+		<text class="map__province-text" x="135" y="306">ENG</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nENG;)"/>
+	</g>
+	<g id="GoB" title="Gulf of Bothnia">
+		<polygon class="map__province map__province--sea" points="311,220 314,209 322,206 328,203 331,193 326,183 320,182 321,161 330,146 343,138 351,128 347,121 349,112 355,104 362,107 368,108 372,120 366,121 359,136 345,151 347,160 350,165 348,178 349,184 357,186 365,191 384,185 402,177 403,183 411,184 414,187 408,187 400,192 399,197 387,196 371,198 369,202 365,204 368,210 372,213 373,221 377,227 373,229 366,228 359,220"/>
+		<text class="map__province-text" x="328" y="175">GoB</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nGoB;)"/>
+	</g>
+	<g id="GoL" title="Gulf of Lyon">
+		<polygon class="map__province map__province--sea" points="115,469 110,461 124,444 131,439 146,438 157,432 158,425 158,418 169,412 176,417 188,422 198,421 211,416 222,410 233,415 238,431 224,431 221,434 211,436 213,451 218,454 218,458 214,461 206,462 205,466 154,466 148,463 142,469"/>
+		<text class="map__province-text" x="170" y="457">GoL</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nGoL;)"/>
+	</g>
+	<g id="HEL" title="Heligoland Bight">
+		<polygon class="map__province map__province--sea" points="245,237 243,247 244,254 243,257 245,263 244,270 244,273 235,277 234,274 230,273 226,275 211,274 211,237"/>
+		<text class="map__province-text" x="221" y="250">HEL</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nHEL;)"/>
+	</g>
+	<g id="ION" title="Ionian Sea">
+		<polygon class="map__province map__province--sea" points="289,511 290,514 295,515 308,500 311,491 304,484 310,480 318,485 322,485 322,480 335,480 339,487 346,498 350,498 347,500 352,508 367,507 371,511 355,510 350,514 357,521 359,533 360,528 367,536 368,531 376,537 383,544 380,547 383,550 400,554 400,559 232,559 234,551 232,544 225,535 231,531 236,524 247,513 258,519 273,531 281,532 282,521 285,513 285,511"/>
+		<text class="map__province-text" x="315" y="520">ION</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nION;)"/>
+	</g>
+	<g id="IRI" title="Irish Sea">
+		<polygon class="map__province map__province--sea" points="100,291 112,287 122,281 130,282 127,276 119,272 116,272 115,265 128,262 126,256 121,257 132,250 135,250 139,240 136,229 130,227 120,227 110,232 109,246 98,259 87,257 70,261 58,273 88,303"/>
+		<text class="map__province-text" x="95" y="270">IRI</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nIRI;)"/>
+	</g>
+	<g id="MAO" title="Mid-Atlantic Ocean">
+		<polygon class="map__province map__province--sea" points="102,317 100,322 103,328 109,329 123,344 122,350 123,357 128,363 121,382 122,384 112,399 101,396 96,397 72,384 59,381 54,375 48,374 46,378 39,375 33,381 35,384 32,396 30,406 17,427 14,427 10,433 13,440 15,441 12,450 13,454 8,462 19,469 27,468 33,475 34,484 37,490 37,495 33,496 17,518 0,520 0,273 58,273"/>
+		<text class="map__province-text" x="50" y="355">MAO</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nMAO;)"/>
+	</g>
+	<g id="NAO" title="North Atlantic Ocean">
+		<polygon class="map__province map__province--sea" points="70,261 64,250 67,242 71,245 81,234 74,228 80,225 78,218 82,217 89,220 94,220 95,218 94,216 97,216 101,212 110,212 119,217 120,227 130,227 130,223 138,217 138,214 130,208 129,197 139,189 140,182 148,177 148,0 0,0 0,273 58,273"/>
+		<text class="map__province-text" x="65" y="120">NAO</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nNAO;)"/>
+	</g>
+	<g id="NTH" title="North Sea">
+		<polygon class="map__province map__province--sea" points="171,197 171,181 198,154 241,154 241,224 248,224 245,237 211,237 211,301 173,301 165,293 140,197"/>
+		<text class="map__province-text" x="190" y="230">NTH</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nNTH;)"/>
+	</g>
+	<g id="NWG" title="Norwegian Sea">
+		<polygon class="map__province map__province--sea" points="362,33 357,39 343,44 324,54 320,64 310,75 309,84 303,86 292,111 277,132 269,134 264,142 258,141 236,154 198,154 171,181 171,197 158,193 152,194 154,188 161,185 162,181 148,177 148,0 362,0"/>
+		<text class="map__province-text" x="220" y="70">NWG</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nNWG;)"/>
+	</g>
+	<g id="SKA" title="Skagerrak">
+		<polygon class="map__province map__province--sea" points="241,209 246,210 266,201 270,193 275,203 277,218 276,224 282,236 279,240 279,243 275,242 269,243 266,240 267,234 266,221 263,223 248,224 241,224"/>
+		<text class="map__province-text" x="260" y="212">SKA</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nSKA;)"/>
+	</g>
+	<g id="TYS" title="Tyrrhenian Sea">
+		<polygon class="map__province map__province--sea" points="238,431 247,442 248,447 256,458 271,464 276,474 290,487 294,502 289,511 285,511 285,508 276,510 263,510 257,507 252,508 247,513 236,524 233,523 224,527 223,518 218,516 218,490 220,490 224,468 222,458 218,458 218,454 223,450 225,444 225,436 224,431"/>
+		<text class="map__province-text" x="245" y="495">TYS</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nTYS;)"/>
+	</g>
+	<g id="WES" title="Western Mediterranean">
+		<polygon class="map__province map__province--sea" points="37,490 47,488 52,489 60,486 78,491 83,494 86,485 90,483 98,484 107,474 113,473 115,469 142,469 150,471 154,466 205,466 206,476 204,485 208,492 212,492 217,489 218,490 218,516 212,517 208,521 203,520 179,515 169,518 150,511 117,509 106,511 99,515 89,512 84,518 79,520 68,516 68,511 64,514 46,509 42,502 41,494 37,495"/>
+		<text class="map__province-text" x="160" y="491">WES</text>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nWES;)"/>
+	</g>
+
+	<!-- *********************************************************************************************************** -->
+	<!-- LAND INITIAL_PROVINCES                                                                                              -->
+	<!-- *********************************************************************************************************** -->
+	<g id="Ank" title="Ankara">
+		<polygon class="map__province map__province--turkey" points="555,438 551,437 520,441 514,438 511,440 502,433 481,438 470,447 464,457 468,461 468,479 466,491 473,491 490,480 501,482 508,480 531,460 546,462 555,460 557,449"/>
+		<text class="map__province-text" x="492" y="471">Ank</text>
+		<circle r="2" class="map__supply-center" transform="translate(&scAnk;)"/>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aAnk;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nAnk;)"/>
+	</g>
+	<g id="Apu" title="Apulia">
+		<polygon class="map__province map__province--italy" points="304,484 310,480 318,485 322,485 322,480 297,456 300,453 290,453 278,443 274,447 279,451 280,455 279,458 293,481"/>
+		<text class="map__province-text" x="291" y="470">Apu</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aApu;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nApu;)"/>
+	</g>
+	<g id="Arm" title="Armenia">
+		<polygon class="map__province map__province--turkey" points="609,493 584,478 563,479 562,471 556,467 555,460 557,449 555,438 570,427 589,442 594,439 603,441 609,440"/>
+		<text class="map__province-text" x="585" y="467">Arm</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aArm;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nArm;)"/>
+	</g>
+	<g id="Bel" title="Belgium">
+		<polygon class="map__province map__province--neutral" points="191,299 194,303 206,306 205,311 208,315 210,326 205,331 192,323 184,315 169,311 173,301"/>
+		<text class="map__province-text" x="196" y="323">Bel</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBel;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBel;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scBel;)"/>
+	</g>
+	<g id="Blr" title="Balearic Islands">
+		<polygon class="map__province map__province--neutral" points="154,466 148,463 142,469 150,471"/>
+	</g>
+	<g id="Boh" title="Bohemia">
+		<polygon class="map__province map__province--austria" points="281,356 276,346 268,343 264,329 266,325 278,326 288,321 297,322 311,334 314,332 321,339 322,347 316,348 303,346 295,349 292,357"/>
+		<text class="map__province-text" x="280" y="347">Boh</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBoh;)"/>
+	</g>
+	<g id="Bre" title="Brest">
+		<polygon class="map__province map__province--france" points="150,319 144,318 142,312 136,310 136,326 124,323 122,318 102,317 100,322 103,328 109,329 123,344 122,350 123,357 128,363 146,365 146,337 148,329"/>
+		<text class="map__province-text" x="130" y="352">Bre</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBre;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBre;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scBre;)"/>
+	</g>
+	<g id="Bud" title="Budapest">
+		<polygon class="map__province map__province--austria" points="394,376 395,382 401,385 406,396 401,402 387,402 367,406 365,412 360,413 342,410 338,412 335,410 332,410 323,408 321,398 311,394 308,383 311,375 322,370 335,354 337,350 350,347 360,351 368,353 377,360 378,363 384,365"/>
+		<text class="map__province-text" x="350" y="390">Bud</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBud;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scBud;)"/>
+	</g>
+	<g id="Bul" title="Bulgaria">
+        <polyline class="map__province map__province--neutral" points="410,420 404,422 398,427 390,425 382,427 375,423 370,425 367,421 365,425 368,433 371,438 366,439 371,456 365,461 369,464 376,464 388,460 412,454"/>
+        <line class="map__province-boundary--neutral" x1="410" y1="420" x2="412" y2="454"/>
+        <line class="map__province-boundary--neutral" x1="388" y1="460" x2="412" y2="454"/>
+		<text class="map__province-text" x="382" y="438">Bul</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBul;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scBul;)"/>
+	</g>
+	<g id="Bul_ec" title="Bulgaria East Coast">
+        <polyline class="map__province map__province--neutral" points="412,454 413,464 412,454 420,451 426,450 422,441 425,427 429,426 430,423 422,420 410,420"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBul_ec;)"/>
+	</g>
+	<g id="Bur" title="Burgundy">
+		<polygon class="map__province map__province--france" points="192,323 205,331 204,338 211,346 213,352 209,363 208,367 194,382 178,381 178,390 173,396 168,395 163,387 165,383 158,380 156,374 165,365 185,344 188,332"/>
+		<text class="map__province-text" x="185" y="371">Bur</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBur;)"/>
+	</g>
+	<g id="Cly" title="Clyde">
+		<polygon class="map__province map__province--england" points="138,214 130,208 129,197 139,189 140,182 148,177 162,181 161,185 154,188 152,194 146,200 144,213"/>
+		<text class="map__province-text" x="133" y="206">Cly</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aCly;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nCly;)"/>
+	</g>
+	<g id="Con" title="Constantinople">
+		<polygon class="map__province map__province--turkey" points="408,470 410,473 414,475 410,482 409,487 417,486 417,489 423,487 432,493 452,495 466,491 468,479 468,461 464,457 442,460 440,458 430,455 426,450 420,451 412,454 413,464"/>
+		<text class="map__province-text" x="435" y="483">Con</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aCon;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nCon;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scCon;)"/>
+	</g>
+	<g id="Cor" title="Corsica">
+		<polygon class="map__province map__province--france" points="224,431 221,434 211,436 213,451 218,454 223,450 225,444 225,436 224,431"/>
+	</g>
+	<g id="Cre" title="Crete">
+		<polygon class="map__province map__province--neutral" points="414,552 416,549 412,547 387,546 383,544 380,547 383,550 400,554"/>
+	</g>
+	<g id="Den" title="Denmark">
+		<polygon class="map__province map__province--neutral" points="279,243 275,242 269,243 266,240 267,234 266,221 263,223 248,224 245,237 243,247 244,254 254,255 266,255 271,260 278,254 277,250 280,248 "/>
+		<text class="map__province-text" x="248" y="242">Den</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aDen;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nDen;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scDen;)"/>
+    </g>
+	<g id="Edi" title="Edinburgh">
+		<polygon class="map__province map__province--england" points="152,194 158,193 171,197 170,202 165,210 158,214 151,215 157,216 161,218 163,226 155,228 145,217 144,213 146,200"/>
+		<text class="map__province-text" x="153" y="202">Edi</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aEdi;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nEdi;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scEdi;)"/>
+    </g>
+	<g id="Fin" title="Finland">
+		<polygon class="map__province map__province--russia" points="362,107 368,108 372,120 366,121 359,136 345,151 347,160 350,165 348,178 349,184 357,186 365,191 384,185 402,177 412,161 410,152 414,147 410,130 402,118 401,110 392,92 393,73 387,68 388,61 386,58 388,54 379,48 370,49 369,61 355,62 346,54 342,61 356,71"/>
+		<text class="map__province-text" x="375" y="160">Fin</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aFin;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nFin;)"/>
+	</g>
+	<g id="Gal" title="Galicia">
+		<polygon class="map__province map__province--austria" points="333,330 341,330 344,332 353,327 356,323 361,324 367,329 374,327 379,324 383,327 385,332 399,338 404,354 403,360 404,371 394,376 384,365 378,363 377,360 368,353 360,351 350,347 337,350 329,346 322,347 321,339 322,347 321,339 325,340 329,338"/>
+		<text class="map__province-text" x="355" y="343">Gal</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aGal;)"/>
+	</g>
+	<g id="Gas" title="Gascony">
+		<polygon class="map__province map__province--france" points="128,363 121,382 122,384 112,399 113,407 123,412 134,417 135,414 142,417 149,403 157,397 168,395 163,387 165,383 158,380 156,374 149,372 146,365"/>
+		<text class="map__province-text" x="130" y="400">Gas</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aGas;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nGas;)"/>
+	</g>
+	<g id="Gre" title="Greece">
+		<polygon class="map__province map__province--neutral" points="339,487 346,498 350,498 347,500 352,508 367,507 371,511 355,510 350,514 357,521 359,533 360,528 367,536 368,531 376,537 371,520 378,521 377,513 386,516 385,509 370,494 371,491 378,494 368,483 371,477 379,484 382,483 381,477 386,478 380,472 392,472 388,460 376,464 369,464 361,467 356,471 350,471 350,477"/>
+		<text class="map__province-text" x="352" y="490">Gre</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aGre;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nGre;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scGre;)"/>
+	</g>
+	<g id="Hol" title="Holland">
+		<polygon class="map__province map__province--neutral" points="226,275 227,280 225,292 220,298 215,297 213,302 210,313 208,315 205,311 206,306 194,303 191,299 198,289 205,276 205,279 207,279 211,274"/>
+		<text class="map__province-text" x="212" y="286">Hol</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aHol;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nHol;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scHol;)"/>
+	</g>
+	<g id="Ice" title="Iceland">
+		<polygon class="map__province map__province--inaccessible" transform="translate(90,50) scale(0.7)" points="52,8 60,20 57,8 64,13 69,8 71,10 75,8 74,2 79,1 92,13 92,19 101,23 99,37 96,42 92,46 54,69 31,60 17,60 23,39 5,39 20,31 1,23 15,2 29,12 30,27 35,20 38,24 38,11 41,10 46,19 48,19 46,14 46,12 46,11 47,11 49,10 52,8"/>
+	</g>
+	<g id="Ire" title="Ireland">
+		<polygon class="map__province map__province--england" points="120,227 110,232 109,246 98,259 87,257 70,261 64,250 67,242 71,245 81,234 74,228 80,225 78,218 82,217 89,220 94,220 95,218 94,216 97,216 101,212 110,212 119,217"/>
+	</g>
+	<g id="Kie" title="Kiel">
+		<polygon class="map__province map__province--germany" points="244,254 243,257 245,263 244,270 244,273 235,277 234,274 230,273 226,275 227,280 225,292 220,298 215,297 213,302 232,308 241,316 243,322 263,310 261,296 264,293 262,287 266,283 266,275 261,274 260,269 256,266 256,263 254,255"/>
+		<text class="map__province-text" x="242" y="305">Kie</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aKie;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nKie;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scKie;)"/>
+	</g>
+	<g id="Lon" title="London">
+		<polygon class="map__province map__province--england" points="166,269 168,270 171,268 177,270 178,274 176,283 165,293 172,294 168,296 160,298 147,295 145,281 150,277 153,271"/>
+		<text class="map__province-text" x="160" y="278">Lon</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aLon;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nLon;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scLon;)"/>
+	</g>
+	<g id="Lvn" title="Livonia">
+		<polygon class="map__province map__province--russia" points="369,202 365,204 368,210 372,213 373,221 377,227 373,229 366,228 359,220 349,229 347,243 354,251 356,261 362,260 367,265 365,281 372,283 379,290 389,285 392,278 404,275 405,239 409,228 405,217 394,205 382,206 372,205"/>
+		<text class="map__province-text" x="380" y="260">Lvn</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aLvn;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nLvn;)"/>
+	</g>
+	<g id="Mar" title="Marseilles">
+		<polygon class="map__province map__province--france" points="142,417 149,403 157,397 168,395 173,396 178,390 178,381 194,382 197,385 203,379 207,386 204,390 207,396 201,399 204,402 203,410 211,416 198,421 188,422 176,417 169,412 158,418 158,425 154,427"/>
+		<text class="map__province-text" x="183" y="393">Mar</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aMar;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nMar;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scMar;)"/>
+	</g>
+	<g id="Mos" title="Moscow">
+		<polygon class="map__province map__province--russia" points="609,117 598,132 573,143 564,159 534,164 515,169 489,184 476,183 458,194 456,207 457,210 451,213 447,209 439,211 428,225 421,229 409,228 405,239 404,275 392,278 389,285 379,290 386,309 390,306 456,292 468,295 477,289 494,295 505,280 516,286 526,287 533,283 549,284 554,304 564,305 569,321 597,330 609,330"/>
+		<text class="map__province-text" x="473" y="265">Mos</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aMos;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scMos;)"/>
+	</g>
+	<g id="Mun" title="Munich">
+		<polygon class="map__province map__province--germany" points="234,366 243,370 246,369 250,371 267,368 271,370 269,362 275,362 281,356 276,346 268,343 264,329 266,325 278,326 288,321 284,314 288,305 263,310 243,322 237,322 219,344 211,346 213,352 209,363 222,365 225,362 232,363"/>
+		<text class="map__province-text" x="235" y="360">Mun</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aMun;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scMun;)"/>
+	</g>
+	<g id="NAf" title="North Africa">
+		<polygon class="map__province map__province--neutral" points="203,520 179,515 169,518 150,511 117,509 106,511 99,515 89,512 84,518 79,520 68,516 68,511 64,514 46,509 42,502 41,494 37,495 33,496 17,518 0,520 0,559 195,559 197,527"/>
+		<text class="map__province-text" x="130" y="536">NAf</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aNAf;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nNAf;)"/>
+	</g>
+	<g id="Nap" title="Naples">
+		<polygon class="map__province map__province--italy" points="271,464 276,474 290,487 294,502 289,511 290,514 295,515 308,500 311,491 304,484 293,481 279,458"/>
+		<text class="map__province-text" x="293" y="493">Nap</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aNap;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nNap;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scNap;)"/>
+	</g>
+	<g id="Nwy" title="Norway">
+		<polygon class="map__province map__province--neutral" points="397,48 391,47 395,41 394,38 384,33 382,40 380,33 377,31 374,38 371,33 366,42 366,33 362,33 357,39 343,44 324,54 320,64 310,75 309,84 303,86 292,111 277,132 269,134 264,142 258,141 236,154 237,160 233,167 231,180 233,186 229,192 231,201 241,209 246,210 266,201 270,193 275,203 279,204 287,177 285,170 290,164 292,133 301,132 300,126 309,115 308,104 311,101 324,71 332,74 330,64 341,65 342,61 346,54 355,62 369,61 370,49 379,48 388,54 386,58 388,61"/>
+		<text class="map__province-text" x="250" y="175">Nwy</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aNwy;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nNwy;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scNwy;)"/>
+	</g>
+	<g id="Par" title="Paris">
+		<polygon class="map__province map__province--france" points="146,365 149,372 156,374 165,365 185,344 188,332 172,328 165,331 159,331 148,329 146,337"/>
+		<text class="map__province-text" x="155" y="358">Par</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aPar;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scPar;)"/>
+	</g>
+	<g id="Pic" title="Picardy">
+		<polygon class="map__province map__province--france" points="169,311 153,315 155,320 150,319 148,329 159,331 165,331 172,328 188,332 192,323 184,315"/>
+		<text class="map__province-text" x="171" y="321">Pic</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aPic;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nPic;)"/>
+	</g>
+	<g id="Pru" title="Prussia">
+		<polygon class="map__province map__province--germany" points="347,243 347,248 348,254 344,262 337,264 334,273 328,274 326,265 314,266 307,273 294,275 292,290 297,296 296,300 320,303 324,299 326,292 341,287 345,289 359,286 365,281 367,265 362,260 356,261 354,251"/>
+		<text class="map__province-text" x="344" y="278">Pru</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aPru;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nPru;)"/>
+	</g>
+	<g id="Rom" title="Rome">
+		<polygon class="map__province map__province--italy" points="247,442 248,447 256,458 271,464 279,458 280,455 279,451 274,447 263,434 250,438"/>
+		<text class="map__province-text" x="257" y="449">Rom</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aRom;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nRom;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scRom;)"/>
+	</g>
+	<g id="Ruh" title="Ruhr">
+		<polygon class="map__province map__province--germany" points="213,302 210,313 208,315 210,326 205,331 204,338 211,346 219,344 237,322 243,322 241,316 232,308"/>
+		<text class="map__province-text" x="210" y="335">Ruh</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aRuh;)"/>
+	</g>
+	<g id="Rum" title="Rumania">
+		<polygon class="map__province map__province--neutral" points="403,360 404,371 394,376 395,382 401,385 406,396 401,402 387,402 367,406 365,412 367,421 370,425 375,423 382,427 390,425 398,427 404,422 410,420 422,420 430,423 432,409
+			439,404 438,397 427,399 422,382 423,376 414,372 411,361"/>
+		<text class="map__province-text" x="378" y="417">Rum</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aRum;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nRum;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scRum;)"/>
+	</g>
+	<g id="Sar" title="Sardinia">
+		<polygon class="map__province map__province--italy" points="218,490 220,490 224,468 222,458 218,458 214,461 206,462 205,466 206,476 204,485 208,492 212,492 217,489"/>
+	</g>
+	<g id="Ser" title="Serbia">
+		<polygon class="map__province map__province--neutral" points="365,412 360,413 342,410 338,412 335,410 332,410 330,416 331,424 327,429 330,437 337,446 346,452 346,466 350,471 356,471 361,467 369,464 365,461 371,456 366,439 371,438 368,433 365,425 367,421"/>
+		<text class="map__province-text" x="350" y="450">Ser</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSer;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scSer;)"/>
+	</g>
+	<g id="Sev" title="Sevastopol">
+		<polygon class="map__province map__province--russia" points="438,397 446,378 459,375 461,377 459,379 465,383 476,381 478,383 472,385 468,392 477,396 477,401 486,404 488,397 494,396 497,392 507,389 506,384 494,387 485,378 503,364 526,351 527,354 514,365 517,371 520,371 515,384 511,383 510,386 517,393 528,394 554,406 567,408 573,417 570,427 589,442 594,439 603,441 609,440 609,330 597,330 569,321 564,305 554,304 549,284 533,283 526,287 516,286 505,280 494,295 477,289 468,295 470,303 466,307 460,345 445,350 434,360 432,372 423,376 422,382 427,399"/>
+		<text class="map__province-text" x="540" y="350">Sev</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSev;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nSev;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scSev;)"/>
+	</g>
+	<g id="Sic" title="Sicily">
+		<polygon class="map__province map__province--italy" points="258,519 273,531 281,532 282,521 285,513 285,511 285,508 276,510 263,510 257,507 252,508 247,513"/>
+	</g>
+	<g id="Sil" title="Silesia">
+		<polygon class="map__province map__province--germany" points="288,321 297,322 311,334 314,332 321,339 325,340 329,338 333,330 326,327 323,322 320,303 296,300 288,305 284,314"/>
+		<text class="map__province-text" x="304" y="325">Sil</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSil;)"/>
+	</g>
+
+	<g id="Smy" title="Smyrna">
+		<polygon class="map__province map__province--turkey" points="417,489 420,495 417,498 417,507 423,510 427,524 435,523 435,530 441,526 447,528 453,534 464,531 466,521 475,520 485,528 491,530 505,526 511,514 520,517 527,508 530,509 536,494 545,486 555,484 563,479 562,471 556,467 555,460 546,462 531,460 508,480 501,482 490,480 473,491 466,491 452,495 432,493 423,487"/>
+		<text class="map__province-text" x="470" y="510">Smy</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSmy;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nSmy;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scSmy;)"/>
+	</g>
+	<g id="Spa" title="Spain">
+		<polyline class="map__province map__province--neutral" points="110,461 124,444 131,439 146,438 157,432 158,425 154,427 142,417 135,414 134,417 123,412 113,407"/>
+        <polyline class="map__province--neutral" points="113,407 62,407 61,411 52,412 42,432 37,431 40,441 34,447 36,457 27,468 110,461"/>
+        <line class="map__province-boundary--neutral" x1="62" y1="407" x2="113" y2="407"/>
+        <line class="map__province-boundary--neutral" x1="27" y1="468" x2="110" y2="461"/>
+        <line class="map__province-boundary--neutral" x1="113" y1="407" x2="110" y2="461"/>
+		<text class="map__province-text" x="85" y="450">Spa</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSpa;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scSpa;)"/>
+	</g>
+	<g id="Spa_nc" title="Spain North Coast">
+        <polyline class="map__province map__province--neutral" points="113,407 112,399 101,396 96,397 72,384 59,381 54,375 48,374 46,378 39,375 33,381 35,384 32,396 43,395 42,399 55,400 62,407"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nSpa_nc;)"/>
+	</g>
+	<g id="Spa_sc" title="Spain South Coast">
+        <polyline class="map__province map__province--neutral" points="27,468 33,475 34,484 37,490 47,488 52,489 60,486 78,491 83,494 86,485 90,483 98,484 107,474 113,473 115,469 115,469 110,461"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nSpa_sc;)"/>
+	</g>
+	<g id="StP" title="St. Petersburg">
+		<polyline class="map__province map__province--russia" points="414,147 410,152 412,161 402,177 456,207 458,194 476,183 489,184 515,169 534,164 564,159 534,164 564,159 573,143 598,132 609,117"/>
+        <line class="map__province-boundary map__province-boundary--russia" x1="414" y1="147" x2="609" y2="117"/>
+        <line class="map__province-boundary map__province-boundary--russia" x1="402" y1="177" x2="455.5" y2="206.5"/>
+		<text class="map__province-text" x="460" y="149">StP</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aStP;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scStP;)"/>
+	</g>
+	<g id="StP_nc" title="St. Petersburg North Coast">
+        <polyline class="map__province map__province--russia" points="609,117 609,0 540,0 535,9 530,6 517,19 516,33 513,38 513,23 507,20 505,26 499,33 492,48 495,58 488,60 479,57 477,55 481,50 473,43 466,45 472,62 478,66 478,74 472,72 468,74 457,91 469,100 467,106 462,109 444,101 442,110 447,115 454,119 452,122 434,118 426,103 426,94 414,88 412,83 445,84 457,79 459,66 453,61 417,47 405,49 401,45 397,48 388,61 387,68 393,73 392,92 401,110 402,118 410,130 414,147"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nStP_nc;)"/>
+	</g>
+	<g id="StP_sc" title="St. Petersburg South Coast">
+        <polyline class="map__province map__province--russia" points="402,177 403,183 411,184 414,187 408,187 400,192 399,197 387,196 371,198 369,202 372,205 382,206 394,205 405,217 409,228 421,229 428,225 439,211 447,209 451,213 457,210 456,207"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nStP_sc;)"/>
+	</g>
+	<g id="Swe" title="Sweden">
+		<polygon class="map__province map__province--neutral" points="275,203 277,218 276,224 282,236 279,240 279,243 282,253 289,254 294,245 305,244 312,229 311,220 314,209 322,206 328,203 331,193 326,183 320,182 321,161 330,146 343,138 351,128 347,121 349,112 355,104 362,107 356,71 342,61 341,65 330,64 332,74 324,71 311,101 308,104 309,115 300,126 301,132 292,133 290,164 285,170 287,177 279,204"/>
+		<text class="map__province-text" x="300" y="170">Swe</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSwe;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nSwe;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scSwe;)"/>
+	</g>
+	<g id="Swi" title="Switzerland">
+		<polygon class="map__province map__province--inaccessible" points="209,363 208,367 194,382 197,385 203,379 207,386 213,387 221,385 227,390 229,385 243,388 245,384 241,378 234,374 234,366 232,363 225,362 222,365"/>
+	</g>
+	<g id="Syr" title="Syria">
+		<polygon class="map__province map__province--turkey" points="530,509 536,494 545,486 555,484 563,479 584,478 609,493 609,559 528,559 532,535 526,530 525,518"/>
+		<text class="map__province-text" x="570" y="535">Syr</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aSyr;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nSyr;)"/>
+	</g>
+	<g id="Tri" title="Trieste">
+		<polygon class="map__province map__province--austria" points="276,399 275,403 278,410 282,401 286,402 289,418 306,436 331,454 330,445 337,446 330,437 327,429 331,424 330,416 332,410 323,408 321,398 311,394 308,383 299,385 294,380 289,385 276,386 279,389"/>
+		<text class="map__province-text" x="305" y="425">Tri</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aTri;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nTri;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scTri;)"/>
+    </g>
+	<g id="Tun" title="Tunis">
+		<polygon class="map__province map__province--neutral" points="232,559 234,551 232,544 225,535 231,531 236,524 233,523 224,527 223,518 218,516 212,517 208,521 203,520 197,527 195,559"/>
+		<text class="map__province-text" x="210" y="555">Tun</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aTun;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nTun;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scTun;)"/>
+    </g>
+	<g id="Tyr" title="Tyrolia">
+		<polygon class="map__province map__province--austria" points="234,366 243,370 246,369 250,371 267,368 271,370 269,362 275,362 281,356 292,357 295,362 294,380 289,385 276,386 268,385 259,388 255,394 250,397 246,392 243,388 245,384 241,378 234,374"/>
+		<text class="map__province-text" x="255" y="380">Tyr</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aTyr;)"/>
+	</g>
+	<g id="Ukr" title="Ukraine">
+		<polygon class="map__province map__province--russia" points="383,327 385,332 399,338 404,354 403,360 411,361 414,372 423,376 432,372 434,360 445,350 460,345 466,307 470,303 468,295 456,292 390,306 386,309"/>
+		<text class="map__province-text" x="420" y="340">Ukr</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aUkr;)"/>
+	</g>
+	<g id="Ven" title="Venice">
+		<polygon class="map__province map__province--italy" points="278,443 272,424 260,417 261,401 270,398 276,399 279,389 276,386 268,385 259,388 255,394 250,397 246,392 233,404 236,411 240,415 246,416 253,418 263,434 274,447"/>
+		<text class="map__province-text" x="244" y="405">Ven</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aVen;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nVen;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scVen;)"/>
+    </g>
+	<g id="Vie" title="Vienna">
+		<polygon class="map__province map__province--austria" points="292,357 295,349 303,346 316,348 322,347 329,346 337,350 335,354 322,370 311,375 308,383 299,385 294,380 295,362"/>
+		<text class="map__province-text" x="306" y="368">Vie</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aVie;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scVie;)"/>
+	</g>
+	<g id="Wal" title="Wales">
+		<polygon class="map__province map__province--england" points="100,291 112,287 122,281 130,282 127,276 119,272 116,272 115,265 128,262 143,262 150,264 153,271 150,277 145,281 147,295 134,294 124,291 120,295 110,292"/>
+		<text class="map__province-text" x="130" y="275">Wal</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aWal;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nWal;)"/>
+	</g>
+	<g id="War" title="Warsaw">
+		<polygon class="map__province map__province--russia" points="333,330 326,327 323,322 320,303 324,299 326,292 341,287 345,289 359,286 365,281 372,283 379,290 386,309 383,327 379,324 374,327 367,329 361,324 356,323 353,327 344,332 341,330"/>
+		<text class="map__province-text" x="355" y="304">War</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aWar;)"/>
+		<circle r="2" class="map__supply-center" transform="translate(&scWar;)"/>
+	</g>
+	<g id="Yor" title="Yorkshire">
+		<polygon class="map__province map__province--england" points="163,226 163,239 168,246 170,252 169,265 166,269 153,271 150,264 151,248 155,239 155,228"/>
+		<text class="map__province-text" x="155" y="254">Yor</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aYor;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nYor;)"/>
+	</g>
+
+	<!-- *********************************************************************************************************** -->
+	<!-- OVERLAY                                                                                                     -->
+	<!-- *********************************************************************************************************** -->
+	<g id="Alb" title="Albania">
+		<polygon class="map__province map__province--neutral" points="331,454 331,477 335,480 339,487 350,477 350,471 346,466 346,452 337,446 330,445"/>
+		<text class="map__province-text" x="333" y="460">Alb</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aAlb;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nAlb;)"/>
+	</g>
+	<g id="Ber" title="Berlin">
+		<polygon class="map__province map__province--germany" points="294,275 286,274 287,267 280,266 266,275 266,283 262,287 264,293 261,296 263,310 288,305 296,300 297,296 292,290"/>
+		<text class="map__province-text" x="274" y="301">Ber</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aBer;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBer;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scBer;)"/>
+    </g>
+	<g id="Bul_sc" title="Bulgaria South Coast">
+        <polyline class="map__province map__province--neutral" points="388,460 392,472 400,468 408,470 413,464 412,454"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nBul_sc;)"/>
+	</g>
+	<g id="Lpl" title="Liverpool">
+		<polygon class="map__province map__province--england" points="128,262 126,256 121,257 132,250 135,250 139,240 136,229 130,227 130,223 138,217 138,214 144,213 145,217 155,228 155,239 151,248 150,264 143,262"/>
+		<text class="map__province-text" x="139" y="230">Lpl</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aLpl;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nLpl;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scLpl;)"/>
+    </g>
+	<g id="Pie" title="Piedmont">
+		<polygon class="map__province map__province--italy" points="207,386 204,390 207,396 201,399 204,402 203,410 211,416 222,410 233,415 236,411 233,404 246,392 243,388 229,385 227,390 221,385 213,387"/>
+		<text class="map__province-text" x="212" y="396">Pie</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aPie;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nPie;)"/>
+	</g>
+    <g id="Por" title="Portugal">
+        <polygon class="map__province map__province--neutral" points="32,396 30,406 17,427 14,427 10,433 13,440 15,441 12,450 13,454 8,462 19,469 27,468 36,457 34,447 40,441 37,431 42,432 52,412 61,411 62,407 55,400 42,399 43,395"/>
+        <text class="map__province-text" x="22" y="440">Por</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aPor;)"/>
+        <use xlink:href="#navy" visibility="hidden" transform="translate(&nPor;)"/>
+        <circle r="2" class="map__supply-center" transform="translate(&scPor;)"/>
+    </g>
+	<g id="Tus" title="Tuscany">
+		<polygon class="map__province map__province--italy" points="233,415 238,431 247,442 250,438 263,434 253,418 246,416 240,415 236,411"/>
+		<text class="map__province-text" x="240" y="425">Tus</text>
+        <use xlink:href="#army" visibility="hidden" transform="translate(&aTus;)"/>
+		<use xlink:href="#navy" visibility="hidden" transform="translate(&nTus;)"/>
+	</g>
+
+	<!-- *********************************************************************************************************** -->
+	<!-- STRAITS                                                                                                     -->
+	<!-- *********************************************************************************************************** -->
+	<g id="ORE" title="Oresund">
+		<polygon class="map__province map__province--sea" points="269,243 268,246 263,247 266,255 254,255 257,247 266,240"/>
+	</g>
+	<g id="SoM" title="Sea of Marmara">
+		<polygon class="map__province map__province--sea" points="414,475 421,467 435,463 440,458 442,460 439,463 448,464 425,475"/>
+	</g>
+
+    <!-- *********************************************************************************************************** -->
+    <!-- INITIAL_UNITS                                                                                                       -->
+    <!-- *********************************************************************************************************** -->
+	<defs>
+        <g id="army" class="map__unit map__unit--army">
+            <path transform="scale(0.53)" d="M29.1931094,12.7745391 L23.2653035,10.3634241 C23.1959614,10.0733566 23.092889,9.79998624 22.9626039,9.53944955 C23.6940552,9.27874489 24.2259464,8.61031963 24.2889724,7.805226 C25.8592141,7.82938149 27.0784116,6.98538374 27.6270336,6.036365 C27.7258394,6.06787802 27.8330441,6.09834955 27.9444819,6.09834955 C28.4951869,6.09834955 28.9429875,5.65266552 28.9429875,5.10192692 C28.9429875,4.54806389 28.4951869,4.10342133 27.9444819,4.10342133 C27.9402488,4.10342133 27.9339663,4.10557147 27.9297332,4.10557147 C27.7909819,2.6477419 27.1057251,0.747487097 24.9889443,0.764251482 L2.21283067,0.936665959 C2.13508961,0.428963782 1.81979151,0.0369996935 1.40773704,0.00229506477 C0.949488116,-0.0345597055 0.535384289,0.376419697 0.417697635,0.949264445 L0.398783108,0.949264445 L0.381951531,1.15215046 C0.381951531,1.15423341 0.381951531,1.15423341 0.381951531,1.15423341 L0.228485177,3.05445461 L0.00362740336,5.83344539 C-0.0405176907,6.50294572 0.323158598,7.07579047 0.827635562,7.11674395 C1.33211253,7.15776462 1.78404541,6.65113751 1.84710503,5.98365294 L11.3211663,6.75511702 C11.1866817,7.02418707 11.1026246,7.32480374 11.1026246,7.64850084 C11.1026246,8.76156865 12.0064567,9.6655016 13.1205996,9.6655016 L15.5779091,9.6655016 C15.3488518,10.1742453 15.2121498,10.7396989 15.2121498,11.3345826 C15.2121498,13.5943142 17.043029,15.4252605 19.3007112,15.4252605 C20.9444944,15.4252605 22.3487385,14.4540684 23.0024823,13.0582906 L28.2135519,15.1793381 C28.8735782,15.4504911 29.6345603,15.1310271 29.903664,14.4667005 C30.1748506,13.8024076 29.8532365,13.0456921 29.1931094,12.7745391 Z M19.3007784,12.3793498 C18.724742,12.3793498 18.2581613,11.9126347 18.2581613,11.3345826 C18.2581613,10.7585798 18.7248092,10.2919991 19.3007784,10.2919991 C19.8809471,10.2919991 20.345512,10.758647 20.345512,11.3345826 C20.3454784,11.9127019 19.8809135,12.3793498 19.3007784,12.3793498 Z"/>
+        </g>
+		<g id="navy" class="map__unit map__unit--navy">
+			<path transform="scale(0.8)" d="M19.1005182,0 L19.1005182,1.68843283 L19.0369603,1.68843283 C18.9847292,1.68843283 18.9430052,1.7315381 18.9430052,1.78376962 L18.9430052,1.84594578 L18.7385147,1.84594578 L18.7385147,2.13748292 L18.7772021,2.13748292 L18.7772021,2.28670571 L18.6998273,2.28670571 L18.6998273,2.60034993 L18.7772021,2.60034993 L18.7772021,2.74957272 L18.5975821,2.74957272 L18.5975821,3.11848464 L18.6915372,3.11848464 L18.6915372,3.60622212 L18.5105355,3.60622212 L18.5105355,3.7402463 L17.5834197,3.7402463 L17.5834197,3.74715476 L18.5105355,3.74715476 L18.5105355,4.60518585 L18.1333334,4.60518585 L18.1333334,4.61071262 L18.5105355,4.61071262 L18.5105355,4.81520312 L18.1222798,4.81520312 L18.1222798,4.71572125 L18.4994819,4.71572125 L18.4994819,4.71019448 L18.1222798,4.71019448 L18.1222798,4.60518585 L18.1167531,4.60518585 L18.1167531,4.81520312 L18.1112263,4.81520312 L18.1112263,4.86632574 L18.5105355,4.86632574 L18.5105355,5.05838101 L18.3751296,5.05838101 L18.3751296,5.06390778 L18.5105355,5.06390778 L18.5105355,5.16338965 L18.364076,5.16338965 L18.364076,5.05838101 L18.3585493,5.05838101 L18.3585493,5.28774198 L18.3557859,5.28774198 L18.3557859,5.33748291 L18.5105355,5.33748291 L18.5105355,5.48532401 L18.3806564,5.48532401 L18.3806564,5.49085078 L18.5105355,5.49085078 L18.5105355,5.59033265 L18.3696028,5.59033265 L18.3696028,5.48532401 L18.364076,5.48532401 L18.364076,5.72712021 L18.306045,5.72712021 L18.306045,5.75889914 L18.5105355,5.75889914 L18.5105355,6.27703386 L18.5105355,6.71779379 L17.7975821,6.71779379 L17.7851469,6.65561762 C17.7661158,6.63324791 17.7426513,6.61654247 17.7160622,6.60173161 L17.9661486,6.41243973 L17.9426598,6.3806608 C17.9426598,6.3806608 17.7364905,6.51943358 17.6455959,6.57271607 C17.5566834,6.54500882 17.4459278,6.53806587 17.3291883,6.53817375 L17.3264249,6.62107531 L17.0777203,6.62107531 L17.0777203,6.71779379 L16.4987911,6.71779379 L15.8107082,6.71779379 L15.8107082,6.13195614 L15.3658032,6.13195614 L15.3658032,5.14404595 L15.8107082,5.14404595 L15.8107082,4.96580761 L15.6324698,4.96580761 L15.6324698,4.8552722 L15.555095,4.8552722 L15.555095,4.96580761 L15.3658032,4.96580761 L15.3658032,4.6880874 L15.4777203,4.6880874 L15.4777203,4.65492678 L15.3658032,4.65492678 L15.3105355,4.65492678 L15.3105355,4.16580761 L15.5661486,4.16580761 L15.5661486,4.02072989 L15.3105355,4.02072989 L15.3105355,3.91848464 C15.3578915,3.89814215 15.3879102,3.86764631 15.3879102,3.8328197 L15.3879102,3.6656349 C15.3879102,3.60407994 15.2948478,3.55509949 15.177893,3.55509949 L15.0659759,3.55509949 L15.0659759,1.06528948 L15.0328153,1.06528948 L15.0328153,3.39896823 L14.8656305,3.39896823 L14.8656305,3.55509949 L14.8214163,3.55509949 C14.7044614,3.55509949 14.611399,3.60407994 14.611399,3.6656349 L14.611399,3.8328197 C14.611399,3.87030756 14.6461009,3.90252642 14.6998273,3.92262972 L14.6998273,4.02072989 L13.8887738,4.02072989 L13.8887738,4.16580761 L14.6887738,4.16580761 L14.6887738,4.65492678 L14.2341969,4.65492678 L14.0656305,4.49879552 C14.0407114,4.45745086 13.9938673,4.43013535 13.8224526,4.47668844 L13.3333334,4.87737928 C13.2733821,4.9415274 13.2887359,4.97678908 13.3112263,5.01002177 L13.9772021,5.54888187 L13.9772021,6.29914094 L13.3775476,6.29914094 L13.3775476,5.98826011 L13.3996546,5.98826011 L13.3996546,5.79896823 L13.011399,5.79896823 L13.011399,5.30984906 L12.9658032,5.30984906 L12.9658032,5.79896823 L12.921589,5.79896823 C12.7184572,5.79896823 12.5554405,5.84305063 12.5554405,5.89845009 L12.5554405,6.71779379 L12.0663213,6.71779379 L12.0663213,6.58791469 L10.9112263,6.58791469 L10.9112263,6.71779379 L10.732988,6.71779379 L10.732988,7.19171434 L10.1803109,7.19309382 L10.1803109,7.05906964 L9.02521596,7.05906964 L9.02521596,7.1972389 L6.95958557,7.20414736 C6.90272129,7.40128151 7.02645418,7.65028241 6.55474964,7.61036498 L0,7.61036498 L0.0221070811,8.34404373 C0.0369488469,8.58105198 0.111045416,8.7576597 0.355094991,8.76545997 L39.2884283,8.78756705 C39.3240742,7.99358946 39.6787253,7.51905919 40,7.0107104 C39.0727092,7.03062932 37.0366908,7.16347122 34.5229707,7.2898123 L34.5229707,7.12539088 L34.4124352,7.12539088 L34.4124352,7.29533907 C34.3807478,7.29692194 34.3503157,7.29790791 34.3184802,7.29948194 L34.3184802,7.29810246 L33.9412781,7.29810246 L33.9412781,7.1419712 L33.9260795,7.1419712 L33.9260795,7.29810246 L33.7685665,7.29810246 L33.7685665,7.1419712 L33.7367876,7.1419712 L33.7367876,7.29810246 L33.3595855,7.29810246 L33.3595855,7.34508 C32.4660584,7.38613108 31.5290104,7.42489055 30.5699482,7.45561541 L29.7533679,7.45561541 L29.7533679,7.39343924 L27.4279793,7.39343924 L27.4279793,7.45561541 L27.0120898,7.45561541 L27.0120898,7.29810246 L26.5561313,7.29810246 L26.5561313,7.45561541 L26.4773748,7.45561541 L26.4773748,7.52884511 C26.070952,7.5291104 25.6659242,7.52691738 25.2656304,7.52193665 L25.2435233,7.14335289 L24.5678757,7.14611627 L24.5678757,6.67081403 L22.2424871,6.67081403 L22.2424871,7.15302474 L21.2601037,7.1571676 L21.2601037,6.71778937 L21.2601037,5.80587227 L20.0027634,5.80587227 L20.0027634,5.71191717 L21.276684,5.71191717 C21.3115048,5.71191717 21.3388601,5.68318018 21.3388601,5.64835932 L21.3388601,5.11502598 C21.3388601,5.10014482 21.3336247,5.0857005 21.3250432,5.0749569 L21.4259068,5.0749569 L21.4259068,5.05975828 L21.3056995,5.05975828 C21.2967921,5.05493142 21.2875655,5.05146813 21.276684,5.05146813 L21.276684,4.98929196 L20.7875648,4.98929196 C20.7888249,4.98431698 20.7889443,4.97808853 20.7889443,4.97271165 L20.7889443,4.89395517 C20.7889443,4.85913431 20.761589,4.83177901 20.7267681,4.83177901 L20.3647647,4.83177901 C20.3299438,4.83177901 20.3025885,4.85913431 20.3025885,4.89395517 L20.3025885,4.97271165 C20.3025885,4.9781973 20.3026769,4.98422634 20.303968,4.98929196 L20.3025885,4.98929196 L20.3025885,5.05146813 L20.0027612,5.05146813 L20.0027612,3.64490509 L20.1050065,3.64490509 L20.1050065,3.66839386 L20.2072517,3.66839386 L20.2072517,3.64490509 L20.7419667,3.64490509 L20.7419667,3.63799663 L20.2072517,3.63799663 L20.2072517,3.53575138 L20.277718,3.53575138 L20.277718,3.39343704 L20.2072517,3.39343704 L20.2072517,3.28428333 L20.2003433,3.28428333 L20.2003433,3.11157176 L20.0580289,3.11157176 L20.0580289,3.29948195 L20.1050065,3.29948195 L20.1050065,3.39343704 L19.4763363,3.39343704 L19.4763363,3.11848022 L19.5785816,3.11848022 L19.5785816,2.7495683 L19.3823813,2.7495683 L19.3823813,2.60034551 L19.5316041,2.60034551 L19.5316041,2.28670129 L19.3823813,2.28670129 L19.3823813,2.13747849 L19.437649,2.13747849 L19.437649,1.84594136 L19.2013795,1.84594136 L19.2013795,1.7837652 C19.2013795,1.73153368 19.1596555,1.68842841 19.1074244,1.68842841 L19.1074244,0 L19.100516,0 L19.1005182,4.42141622e-06 Z M16.4987911,6.71779379 L16.9782384,6.70121348 L16.9630398,6.622457 C16.9440087,6.60008729 16.9205442,6.58338185 16.8939551,6.56857099 L17.1440415,6.37927911 L17.1205527,6.34750018 C17.1205527,6.34750018 16.9143834,6.48627296 16.8234888,6.53955545 C16.7345764,6.5118482 16.6238208,6.50490525 16.5070812,6.50501313 L16.4987911,6.71779379 Z M14.9333334,1.35406323 L14.9333334,1.43218823 L15.0333334,1.43218823 L15.0333334,1.35406323 L14.9333334,1.35406323 Z M18.1886011,3.33955545 L18.1886011,3.57444319 L18.6680484,3.57444319 L18.6680484,3.33955545 L18.1886011,3.33955545 Z M19.4763386,3.5357558 L20.1050087,3.5357558 L20.1050087,3.63800105 L20.0027634,3.63800105 L20.0027634,3.60622212 L19.4763386,3.60622212 L19.4763386,3.5357558 Z M20.0815199,3.74715476 L20.0815199,4.03869189 L20.247323,4.03869189 L20.247323,3.74715476 L20.0815199,3.74715476 Z M18.364076,5.16891642 L18.5105355,5.16891642 L18.5105355,5.28774198 L18.364076,5.28774198 L18.364076,5.16891642 Z M21.3706391,5.34991814 L21.3706391,5.79067807 L21.6842833,5.79067807 L21.6842833,5.34991814 L21.3706391,5.34991814 Z M18.3696028,5.59585942 L18.5105355,5.59585942 L18.5105355,5.72712021 L18.3696028,5.72712021 L18.3696028,5.59585942 Z M21.8735752,6.01036719 L21.8887738,6.63074715 L24.3094992,6.63074715 L24.426943,6.622457 L24.3896373,6.5658076 L24.4034543,6.56857099 C24.4034543,6.56857099 24.3938191,6.51803553 24.386874,6.48290605 L24.584456,6.4732342 L24.5803131,6.4373102 L26.1789314,6.44283697 L26.19413,6.34750018 L24.5651145,6.31710294 L24.5609716,6.28532401 L24.3468093,6.27841555 C24.3449921,6.26797614 24.3407489,6.24428266 24.3399008,6.23834646 C24.332854,6.1890154 24.2319382,6.2213837 24.1713343,6.22867462 L24.1354103,6.17478861 L22.8158939,6.01865735 L21.8735752,6.01036719 Z M12.1436961,6.02142073 L12.0110536,6.07668843 L11.9709845,6.19689569 L11.9557859,6.15406322 L11.4348878,6.22176615 L11.0991365,6.22176615 L11.0784111,6.2687437 L11.038342,6.27288657 L9.84455965,6.28808519 L9.85561319,6.34335289 L10.9761659,6.35026135 L10.8780657,6.55475185 L12.0994819,6.55475185 L12.0801382,6.49948415 L12.1768567,6.49948415 L12.1768567,6.23419918 L12.2224526,6.23281969 L12.1436961,6.02142073 Z M10.2576857,6.4925779 L10.1250432,6.5478456 L10.0849742,6.66805285 L10.0697755,6.62522038 L9.54887744,6.69292332 L9.21312615,6.69292332 L9.19240076,6.73990087 L9.15233167,6.74404374 L7.95854929,6.75924235 L7.96960283,6.81451006 L9.09015551,6.82141852 L8.99205534,7.02590902 L10.2134716,7.02590902 L10.1941279,6.97064132 L10.2908464,6.97064132 L10.2908464,6.70535634 L10.3364422,6.70397686 L10.2576857,6.4925779 Z M27.0590674,6.73299241 L27.074266,7.35337237 L29.4949914,7.35337237 L29.6124353,7.34508221 L29.5751296,7.28843282 L29.5889465,7.2911962 C29.5889465,7.2911962 29.5793113,7.24066074 29.5723662,7.20553126 L29.7699482,7.19585942 L29.7658053,7.15993541 L31.3644236,7.16546218 L31.3796223,7.07012539 L29.7506067,7.03972816 L29.7464639,7.00794923 L29.5323015,7.00104076 C29.5304843,6.99060136 29.5262411,6.96690787 29.525393,6.96097168 C29.5183462,6.91164061 29.4174305,6.94400892 29.3568266,6.95129983 L29.3209025,6.89741382 L28.0013861,6.74128256 L27.0590674,6.73299241 Z M34.8835924,7.15717202 L34.8835924,7.25717202 L35.056304,7.25717202 L35.056304,7.15717202 L34.8835924,7.15717202 Z"/>
+		</g>
+	</defs>
+
+</svg>

@@ -1,7 +1,7 @@
 package province;
 
 public class SeaProvince extends Province {
-    private final String type = "sea";
+    public static final String TYPE = "sea";
 
     public SeaProvince(String name, String tag, boolean passable) {
         super(name, tag, passable);
@@ -13,7 +13,7 @@ public class SeaProvince extends Province {
                 "",
                 "",
                 "",
-                type
+                TYPE
         );
     }
 }

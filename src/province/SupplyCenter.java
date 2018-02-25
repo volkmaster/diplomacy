@@ -7,8 +7,7 @@ public class SupplyCenter {
     private Country occupier;
 
     public SupplyCenter() {
-        this.owner = null;
-        this.occupier = null;
+        this(null);
     }
 
     public SupplyCenter(Country owner) {

@@ -7,21 +7,15 @@ public class LandProvince extends Province {
     private SupplyCenter supplyCenter;
 
     public LandProvince(String name, String tag, boolean passable) {
-        super(name, tag, passable);
-        this.owner = null;
-        this.supplyCenter = null;
+        this(name, tag, passable, null, null);
     }
 
     public LandProvince(String name, String tag, boolean passable, Country owner) {
-        super(name, tag, passable);
-        this.owner = owner;
-        this.supplyCenter = null;
+        this(name, tag, passable, owner, null);
     }
 
     public LandProvince(String name, String tag, boolean passable, SupplyCenter supplyCenter) {
-        super(name, tag, passable);
-        this.owner = null;
-        this.supplyCenter = supplyCenter;
+        this(name, tag, passable, null, supplyCenter);
     }
 
     public LandProvince(String name, String tag, boolean passable, Country owner, SupplyCenter supplyCenter) {

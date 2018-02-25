@@ -24,6 +24,10 @@ public class Unit {
         this.location = location;
     }
 
+    public void setOwner(Country owner) {
+        this.owner = owner;
+    }
+
     @Override
     public String toString() {
         return String.format("Owner: %s | Location: %s", owner, location.getTag());

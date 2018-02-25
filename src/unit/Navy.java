@@ -1,10 +1,11 @@
 package unit;
 
 import country.Country;
+import org.w3c.dom.Element;
 import province.Province;
 
 public class Navy extends Unit {
-    private final String type = "navy";
+    private final String TYPE = "navy";
 
     public Navy(Country owner, Province location) {
         super(owner, location);
@@ -12,6 +13,6 @@ public class Navy extends Unit {
 
     @Override
     public String toString() {
-        return super.toString() + String.format(" | Type: %s", type);
+        return super.toString() + String.format(" | Type: %s", TYPE);
     }
 }
